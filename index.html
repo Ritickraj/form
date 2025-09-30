@@ -4,77 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <div>
-    <form>
-        <div class="class3">
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"required>
-       </div> <br><br>
-        <div class="class1">
-<label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" placeholder="enter your last name"required>
-       </div>  <br><br>
-         <div class="class">
-<label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="enter your email">
-         </div><br><br>
-         <div class="class2">
-<label for="password">Password:</label>
-        <input type="password" id="Password" name="Password" required placeholder="enter your password">
-       </div>  <br><br>
-       <div class="class4">
-<label>Gender:</label>
-        <input type="radio" id="gender" name="gender" value="male" required>
-        <label for="gender">Male</label>
-        <input type="radio" id="gender" name="gender" value="feMale" required>
-        <label for="gender">Female</label>
-      </div>  <BR><BR>
-        <div class="class5">
-            <LABEL>Select your subjects:</LABEL>
-            <input type="checkbox" id="subject" name="subject" value="math" >
-            <label for="subject">Maths</label>
-            <input type="checkbox" id="subject" name="subject" value="math" >
-            <label for="subject">Phy</label>
-            <input type="checkbox" id="subject" name="subject" value="math" >
-            <label for="subject">Bio</label>
-            <input type="checkbox" id="subject" name="subject" value="math" >
-            <label for="subject">Chem</label>
-            </div><br><br>
-            <select >
-                <option>Select your branch</option>
-                <option></option>
-                <option value="civil Engineering">civil Engineering</option>
-                <option value="Mechanical Engineering">Mechanical Engineering</option>
-                <option value="Robotics Engineering">Robotics Engineering</option>
-                <option value="Computer Science Engineering">Computer Science Engineering</option>
-            </select>
-<br><br>
-<label for="range">Range:</label>
-<input type="range" id="range" min="10" max="100">
-<br><br>
-<label for="color">Color:</label>
-<input type="color" id="color">
-<br><br>
-<label for="dob">Dob:</label>
-<input type="date" id="date" name="dob" required>
-<br><br>
-<label for="number">Contact No.</label>
-<input type="number" id="number" name="number">
-<br><br>
-<label for="file">Choose your files</label>
-<input type="file" id="file" required>
-<br><br>
-<label for="address">Address:</label>
-<textarea id="address" name="address" rows="10" col="10" placeholder="Enter your valueable feedback"></textarea>
-<br><br>
-<button value="submit">Submit</button>
-    </form>
+    <div class="navbar">
+        <nav>
+            <a href="#">Home </a>
+             <a href="#">About </a>
+              <a href="#">Services </a>
+               <a href="#">Contact</a>
+        </nav>
     </div>
-    
+        <header>
+<h1>My Website</h1>
+<p><b>Welcome to my semantic HTML example page.</b></p>
+        </header>
+        <main>
+            <div class="main">
+            <section>
+                <h2>Latest Articles</h2>
+            </section>
+            <article>
+                <div class="article1">
+                <h3>Article 1</h3>
+                <p>This is the firts article content.</p>
+                </div>
+                <div class="article2">
+                    <h3>Article</h3>
+                    <p>This is the second article content.</p>
+                </div>
+            </article>
+            </div>
+            <aside>
+                <h3>Sidebar</h3>
+                <p>some extra information or links can go here.</p>
+                
+            </aside>
+        </main>
+   <footer>
+    <p><i class="fa-solid fa-circle-user"></i> 2025 My Website. All rights reserved.</p>
+   </footer>
 </body>
 </html>
